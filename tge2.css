@@ -95,6 +95,13 @@ element.style {
     position: relative;
 }
 
+@media (min-width: 768px) and (max-width: 1259px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 .container {
     width: 1340px;
     max-width: 100%;
@@ -556,10 +563,17 @@ FOOTER
 
 */
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer-main {
+        padding: 70px 0 30px;
+    }
+}
+
 .footer {
+    flex-shrink: 0;
     display: block;
     unicode-bidi: isolate;
-    outline: 0;
+    outline: 0 !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -567,4 +581,28 @@ FOOTER
 
 .page__footer {
     flex-shrink: 0;
+}
+
+.footer-main {
+    background: #202020;
+    padding: 71px 0 38px;
+}
+
+.container {
+    width: 1340px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.footer-main__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
