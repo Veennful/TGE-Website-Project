@@ -747,3 +747,13 @@ ul.footer-main__menu-cell {
         margin-top: 20px;
     }
 }
+
+/* Small phones, tablets, large smartphones */
+@media (max-width: 768px) {
+
+}
+
+/* SMALL PHONES */
+@media (max-width: 480px) {
+    
+}
